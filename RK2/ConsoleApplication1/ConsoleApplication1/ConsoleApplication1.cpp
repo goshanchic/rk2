@@ -61,6 +61,7 @@ void modifyVehicle(Vehicle* vehicle) {
 
 int main() {
     setlocale(LC_ALL, "Russian");
+        // Контейнер для хранения указателей на объекты Vehicle
     list<shared_ptr<Vehicle>> vehicles;
 
     // Добав объекты
